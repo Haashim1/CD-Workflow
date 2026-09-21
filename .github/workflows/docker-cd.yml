@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: Haashim1/cd-workflow
+  IMAGE_NAME: haashim1/cd-workflow
 
 jobs:
   build-and-push:
