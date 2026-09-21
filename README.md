@@ -23,6 +23,14 @@ CICD-Task2/
 └── README.md
 ```
 
+### Project Files
+
+- [Application – `app/app.py`](https://github.com/Haashim1/CD-Workflow/blob/main/app/app.py)
+- [Dockerfile](https://github.com/Haashim1/CD-Workflow/blob/main/Dockerfile)
+- [CD Workflow – `docker-cd.yml`](https://github.com/Haashim1/CD-Workflow/blob/main/.github/workflows/docker-cd.yml)
+- [Workflows Folder](https://github.com/Haashim1/CD-Workflow/tree/main/.github/workflows)
+- [Application Folder](https://github.com/Haashim1/CD-Workflow/tree/main/app)
+
 ## Application
 
 The application is a simple Python program that prints:
@@ -31,9 +39,13 @@ The application is a simple Python program that prints:
 Hello from my CI/CD Task 2 application!
 ```
 
+The application source code can be viewed here:
+
+[View `app.py`](https://github.com/Haashim1/CD-Workflow/blob/main/app/app.py)
+
 ## Docker
 
-The application is packaged into a Docker image using the `Dockerfile`.
+The application is packaged into a Docker image using the [Dockerfile](https://github.com/Haashim1/CD-Workflow/blob/main/Dockerfile).
 
 To build the image locally:
 
@@ -53,9 +65,7 @@ The container successfully runs the Python application and displays the expected
 
 The GitHub Actions workflow is located at:
 
-```text
-.github/workflows/docker-cd.yml
-```
+[`.github/workflows/docker-cd.yml`](https://github.com/Haashim1/CD-Workflow/blob/main/.github/workflows/docker-cd.yml)
 
 The workflow runs automatically whenever code is pushed to the `main` branch.
 
